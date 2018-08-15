@@ -31,12 +31,16 @@ Using leading underscores for custom folders within the Assets folder can help t
         - Animation
         - Audio
         - ...
+        - Editor
+        - ...
+        - Resources
+        - ...
     - &lt;Product-2&gt;
-    - Editor
+    - ~~Editor~~
     - Editor Default Resources
     - Gizmos
     - Plugins
-    - Resources
+    - ~~Resources~~
     - Standard Assets
     - StreamingAssets
     
