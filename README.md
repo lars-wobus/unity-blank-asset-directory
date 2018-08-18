@@ -58,3 +58,7 @@ Using leading underscores for custom folders within the Assets folder can help t
     - _Animation
     - _Audio
     - ...
+    
+### Update
+
+Cause sharing files between projects will always become a problem at some point, the proposed way for small projects should not be applied! It makes much more sense, to place files within project-related folders (as described in one of my [other repositories](https://github.com/lars-wobus/unity-test-git-submodules))
