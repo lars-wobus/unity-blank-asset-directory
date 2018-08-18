@@ -35,7 +35,8 @@ Using leading underscores for custom folders within the Assets folder can help t
         - ...
         - Resources
         - ...
-    - &lt;Product-2&gt;
+    - &lt;Product-2&gt; (target for some symlinks)
+    - &lt;Product-3&gt; (target for other symlinks)
     - ~~Editor~~
     - Editor Default Resources
     - Gizmos
