@@ -1,9 +1,13 @@
 # unity-blank-asset-directory
 
-## Summary
 Repository to evaluate strategies in terms of keeping Unity asset folders structured.
 
-## Unity's special folder names
+## Abstract
+Depending on the size and the goal of a project, different directory structures seem to be suitable. But requirements, like sharing files between projects, as well as the used version control software or mandatory procedures, defined in companies, can have effects on the final project structure. The reverse domain name notation seems to be a proper way to identify files in shared projects and to differentiate between multiple versions of them.
+
+## Investigations
+
+### Unity's special folder names
 
 | Name                     | Quantity | Location |
 |--------------------------|----------|----------|
@@ -17,13 +21,13 @@ Repository to evaluate strategies in terms of keeping Unity asset folders struct
 
 See Unity's [documentation](https://docs.unity3d.com/Manual/SpecialFolders.html) for more details.
 
-## Naming of user-defined folders
+### Leading characters to differentiate between personal folders and Unity special folders
+- When project grows and sharing files is required in the future, restructuring directories could introduce new errors
+    
+### Reverse Domain Name Notation (reverse-DNS)
+- Easy identification of the associated project for any file
+- Easy identification of the obsolete files
+- Less collisions when sharing folders
 
-Depending on the size and the goal of a project as well as on the amount of dependencies, different directory structures seem to be suitable. The used version control software and mandatory procedures defined in companies can also affect the final project structure.
-
-If there are any dependencies, e.g. assets from other projects shall be reused, then sorting assets by their projects or clients seems to be the best idea. For smaller projects this convention seems to be unnecessary, except when developing asset packages.
-
-Using leading underscores for custom folders within the Assets folder can help to identify mandatory folders, which should never be renamed. However, using leading underscores in subfolders seems to be unnecessary.
-
-### Proposed structure for large projects
+## Proposed structure for Unity projects of any sizes
 ![Sample content in Assets folder](https://github.com/lars-wobus/unity-test-git-submodules/blob/master/res/umlet/sample-directory-structure.png)
