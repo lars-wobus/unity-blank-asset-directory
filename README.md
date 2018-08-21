@@ -21,13 +21,13 @@ Depending on the size and the goal of a project, different directory structures 
 
 See Unity's [documentation](https://docs.unity3d.com/Manual/SpecialFolders.html) for more details.
 
-### Leading characters to differentiate between personal folders and Unity special folders
-- When project grows and sharing files is required in the future, restructuring directories could introduce new errors
-    
+### Folders with leading characters to ease differentiation between personal folders and Unity special folder
+Using an underscore as the leading character for folder names seemed to be a good idea at the beginning. But when new developers are joining the team or when files shall be shared between projects, problems could occure. Avoiding misunderstandings and avoiding restructurings of any project should to be primary goals for any Unity developer.
+
 ### Reverse Domain Name Notation (reverse-DNS)
-- Easy identification of the associated project for any file
-- Easy identification of the obsolete files
-- Less collisions when sharing folders
+Example: com.company.product
+
+Using the notation in shared projects reduces the amount of collisions. Moreover obsolete files, duplicates, different versions of a file and the associated project can be identified. 
 
 ## Proposed structure for Unity projects of any sizes
 ![Sample content in Assets folder](https://github.com/lars-wobus/unity-test-git-submodules/blob/master/res/umlet/sample-directory-structure.png)
