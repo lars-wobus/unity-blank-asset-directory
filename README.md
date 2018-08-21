@@ -26,40 +26,4 @@ If there are any dependencies, e.g. assets from other projects shall be reused, 
 Using leading underscores for custom folders within the Assets folder can help to identify mandatory folders, which should never be renamed. However, using leading underscores in subfolders seems to be unnecessary.
 
 ### Proposed structure for large projects
-- Assets
-    - &lt;Product-1&gt;
-        - Animation
-        - Audio
-        - ...
-        - Editor
-        - ...
-        - Resources
-        - ...
-    - &lt;Product-2&gt; (target for some symlinks)
-    - &lt;Product-3&gt; (target for other symlinks)
-    - ~~Editor~~
-    - Editor Default Resources
-    - Gizmos
-    - Plugins
-    - ~~Resources~~
-    - Standard Assets
-    - StreamingAssets
-    
-&lt;Product&gt; = com.company.product | _MyAssetPackage
-  
-### Proposed structure for small projects
-- Assets
-    - Editor
-    - Editor Default Resources
-    - Gizmos
-    - Plugins
-    - Resources
-    - Standard Assets
-    - StreamingAssets
-    - _Animation
-    - _Audio
-    - ...
-    
-### Update
-
-Cause sharing files between projects will always become a problem at some point, the proposed way for small projects should not be applied! It makes much more sense, to place files within project-related folders (as described in one of my [other repositories](https://github.com/lars-wobus/unity-test-git-submodules))
+![Sample content in Assets folder](https://github.com/lars-wobus/unity-test-git-submodules/blob/master/res/umlet/sample-directory-structure.png)
