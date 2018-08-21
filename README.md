@@ -3,7 +3,7 @@
 Repository to evaluate strategies in terms of keeping Unity asset folders structured.
 
 ## Abstract
-Depending on the size and the goal of a project, different directory structures seem to be suitable. But requirements, like sharing files between projects, as well as the used version control software or mandatory procedures, defined in companies, can have effects on the final project structure. The reverse domain name notation seems to be a proper way to identify files in shared projects and to differentiate between multiple versions of them.
+Depending on the size and the goal of a project, different directory structures seem to be suitable. But requirements, like sharing files between projects, as well as the used version control software or mandatory procedures, defined in companies, can have effects on the final project structure. The reverse domain name notation seems to be a proper way to identify files in shared projects as well as to differentiate between multiple versions of them.
 
 ## Investigations
 
