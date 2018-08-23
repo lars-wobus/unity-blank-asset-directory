@@ -22,7 +22,7 @@ Depending on the size and the goal of a project, different directory structures 
 See Unity's [documentation](https://docs.unity3d.com/Manual/SpecialFolders.html) for more details.
 
 ### Folders with leading characters to ease differentiation between personal folders and Unity special folder
-Using an underscore as the leading character for folder names seemed to be a good idea at the beginning. But when new developers are joining the team or when files shall be shared between projects, problems could occure. Avoiding misunderstandings and avoiding restructurings of any project should to be primary goals for any Unity developer.
+Using an underscore as the leading character for folder names seemed to be a good idea at the beginning. But when new developers are joining the team or when files shall be shared between projects, problems could occure. Avoiding misunderstandings and avoiding restructurings of any project should be primary goals for any Unity developer.
 
 ### Reverse Domain Name Notation (reverse-DNS)
 Example: com.company.product
